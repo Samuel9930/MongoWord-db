@@ -1,0 +1,132 @@
+// set-product.mongodb
+
+use("pet_store")
+
+db.products.updateOne(
+  { _id: i },
+  {
+    $set: {
+      title: `Nuevo nombre ${i}`,
+      price: 18.99 + i,
+      description: `Nueva descripción para el producto ${i}`,
+      category: `Nueva categoría para el producto ${i}`,
+      image: `nueva_url_imagen_${i}.jpg`
+    }
+  }
+);
+db.products.updateOne(
+  { _id: 2 },
+  {
+    $set: {
+      title: "Nuevo nombre 2",
+      price: 19.99,
+      description: "Nueva descripción para el producto 2",
+      category: "Nueva categoría para el producto 2",
+      image: "nueva_url_imagen_2.jpg"
+    }
+  }
+);
+
+db.products.updateOne(
+  { _id: 3 },
+  {
+    $set: {
+      title: "Nuevo nombre 3",
+      price: 20.99,
+      description: "Nueva descripción para el producto 3",
+      category: "Nueva categoría para el producto 3",
+      image: "nueva_url_imagen_3.jpg"
+    }
+  }
+);
+
+db.products.updateOne(
+  { _id: 4 },
+  {
+    $set: {
+      title: "Nuevo nombre 4",
+      price: 21.99,
+      description: "Nueva descripción para el producto 4",
+      category: "Nueva categoría para el producto 4",
+      image: "nueva_url_imagen_4.jpg"
+    }
+  }
+);
+
+db.products.updateOne(
+  { _id: 5 },
+  {
+    $set: {
+      title: "Nuevo nombre 5",
+      price: 22.99,
+      description: "Nueva descripción para el producto 5",
+      category: "Nueva categoría para el producto 5",
+      image: "nueva_url_imagen_5.jpg"
+    }
+  }
+);
+
+db.products.updateOne(
+  { _id: 6 },
+  {
+    $set: {
+      title: "Nuevo nombre 6",
+      price: 23.99,
+      description: "Nueva descripción para el producto 6",
+      category: "Nueva categoría para el producto 6",
+      image: "nueva_url_imagen_6.jpg"
+    }
+  }
+);
+
+db.products.updateOne(
+  { _id: 7 },
+  {
+    $set: {
+      title: "Nuevo nombre 7",
+      price: 24.99,
+      description: "Nueva descripción para el producto 7",
+      category: "Nueva categoría para el producto 7",
+      image: "nueva_url_imagen_7.jpg"
+    }
+  }
+);
+
+db.products.updateOne(
+  { _id: 8 },
+  {
+    $set: {
+      title: "Nuevo nombre 8",
+      price: 25.99,
+      description: "Nueva descripción para el producto 8",
+      category: "Nueva categoría para el producto 8",
+      image: "nueva_url_imagen_8.jpg"
+    }
+  }
+);
+
+db.products.updateOne(
+  { _id: 9 },
+  {
+    $set: {
+      title: "Nuevo nombre 9",
+      price: 26.99,
+      description: "Nueva descripción para el producto 9",
+      category: "Nueva categoría para el producto 9",
+      image: "nueva_url_imagen_9.jpg"
+    }
+  }
+);
+
+db.products.updateOne(
+  { _id: 10 },
+  {
+    $set: {
+      title: "Nuevo nombre 10",
+      price: 28.99,
+      description: "Nueva descripción para el producto 10",
+      category: "Nueva categoría para el producto 10",
+      image: "nueva_url_imagen_10.jpg"
+    }
+  }
+);
