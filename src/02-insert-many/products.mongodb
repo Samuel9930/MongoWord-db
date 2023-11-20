@@ -1,0 +1,166 @@
+use("pet_store")
+
+db.products.drop()
+
+db.products.insertMany([
+  {
+    _id: 1,
+    title: "Collar para perros",
+    price: 15.99,
+    description: "Collar resistente para perros de todas las razas",
+    category: "Accesorios",
+    image: "url_imagen_1.jpg"
+  },
+  {
+    _id: 2,
+    title: "Comida para gatos",
+    price: 8.49,
+    description: "Nutritiva comida para gatos de todas las edades",
+    category: "Alimentos",
+    image: "url_imagen_2.jpg"
+  },
+  {
+    _id: 3,
+    title: "Juguete para pájaros",
+    price: 12.99,
+    description: "Juguete colorido para pájaros pequeños",
+    category: "Juguetes",
+    image: "url_imagen_3.jpg"
+  },
+  {
+    _id: 4,
+    title: "Cama para gatos",
+    price: 24.99,
+    description: "Cama suave y cómoda para gatos mimados",
+    category: "Accesorios",
+    image: "url_imagen_4.jpg"
+  },
+  {
+    _id: 5,
+    title: "Rascador para gatos",
+    price: 19.99,
+    description: "Rascador resistente para gatos que disfrutan afilando sus garras",
+    category: "Accesorios",
+    image: "url_imagen_5.jpg"
+  },
+  {
+    _id: 6,
+    title: "Juguete masticable para perros",
+    price: 7.99,
+    description: "Juguete duradero para perros que adoran masticar",
+    category: "Juguetes",
+    image: "url_imagen_6.jpg"
+  },
+  {
+    _id: 7,
+    title: "Correa para perros",
+    price: 10.99,
+    description: "Correa resistente para paseos seguros con tu perro",
+    category: "Accesorios",
+    image: "url_imagen_7.jpg"
+  },
+  {
+    _id: 8,
+    title: "Bol de comida para pájaros",
+    price: 5.99,
+    description: "Bol práctico para colocar la comida de tus pájaros",
+    category: "Alimentos",
+    image: "url_imagen_8.jpg"
+  },
+  {
+    _id: 9,
+    title: "Cama para perros",
+    price: 29.99,
+    description: "Cama cómoda y espaciosa para perros de todos los tamaños",
+    category: "Accesorios",
+    image: "url_imagen_9.jpg"
+  },
+  {
+    _id: 10,
+    title: "Juguete interactivo para gatos",
+    price: 14.99,
+    description: "Juguete que estimula la mente de tu gato con movimientos impredecibles",
+    category: "Juguetes",
+    image: "url_imagen_10.jpg"
+  },
+  {
+    _id: 11,
+    title: "Arena para gatos",
+    price: 11.49,
+    description: "Arena absorbente para mantener limpio el espacio de tu gato",
+    category: "Accesorios",
+    image: "url_imagen_11.jpg"
+  },
+  {
+    _id: 12,
+    title: "Pelota de ejercicio para perros",
+    price: 6.99,
+    description: "Pelota resistente para juegos activos con tu perro",
+    category: "Juguetes",
+    image: "url_imagen_12.jpg"
+  },
+  {
+    _id: 13,
+    title: "Cepillo para gatos",
+    price: 9.99,
+    description: "Cepillo suave para cuidar el pelaje de tu gato",
+    category: "Accesorios",
+    image: "url_imagen_13.jpg"
+  },
+  {
+    _id: 14,
+    title: "Comedero automático para perros",
+    price: 34.99,
+    description: "Comedero que dispensa la cantidad adecuada de comida para tu perro",
+    category: "Alimentos",
+    image: "url_imagen_14.jpg"
+  },
+  {
+    _id: 15,
+    title: "Casa para pájaros",
+    price: 18.99,
+    description: "Casa acogedora para pájaros pequeños",
+    category: "Accesorios",
+    image: "url_imagen_15.jpg"
+  },
+  {
+    _id: 16,
+    title: "Peluche para perros",
+    price: 12.49,
+    description: "Peluche suave y divertido para entretener a tu perro",
+    category: "Juguetes",
+    image: "url_imagen_16.jpg"
+  },
+  {
+    _id: 17,
+    title: "Juguete para hamsters",
+    price: 6.99,
+    description: "Juguete divertido para hamsters activos",
+    category: "Juguetes",
+    image: "url_imagen_17.jpg"
+  },
+  {
+    _id: 18,
+    title: "Comida para conejos",
+    price: 11.99,
+    description: "Comida nutritiva para conejos de todas las edades",
+    category: "Alimentos",
+    image: "url_imagen_18.jpg"
+  },
+  {
+    _id: 19,
+    title: "Corralito para tortugas",
+    price: 27.99,
+    description: "Corralito espacioso para tortugas pequeñas",
+    category: "Accesorios",
+    image: "url_imagen_19.jpg"
+  },
+  {
+    _id: 20,
+    title: "Bol de agua para pájaros",
+    price: 4.99,
+    description: "Bol resistente para mantener a tus pájaros hidratados",
+    category: "Accesorios",
+    image: "url_imagen_20.jpg"
+  }
+])
